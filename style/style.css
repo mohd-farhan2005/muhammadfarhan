@@ -1,0 +1,510 @@
+    @import url('https://fonts.googleapis.com/css?family=Anton|Roboto');
+    @import url(https://fonts.googleapis.com/css?family=Khula:700);
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .nav-link {
+        margin-left: 15px;
+        color: #a8b2d1;
+    }
+    
+    .bodycolo {
+        background-color: rgba(10, 25, 47, 1);
+        overflow-x: hidden;
+    }
+    
+    #navbarNav ul li a {
+        color: #a8b2d1;
+    }
+    
+    #navbarNav ul li a:hover {
+        color: #64ffda;
+    }
+    
+    #icon i {
+        color: #a8b2d1;
+        font-size: 1.5vw;
+    }
+    
+    #icon {
+        position: absolute;
+        top: 70%;
+        position: fixed;
+    }
+    
+    .vertical-line {
+        width: 0.1vw;
+        /* Set the width using viewport width */
+        height: 10vh;
+        /* Set the height to full viewport height */
+        background-color: #a8b2d1;
+        /* Set the line's color */
+        margin-left: 7px;
+    }
+    
+    #icon i:hover {
+        color: #64ffda;
+        font-size: 1.5vw;
+    }
+    
+    .ab-hello {
+        color: #64ffda;
+        font-family: play-fair;
+        font-size: 4vw;
+    }
+    
+    .ab-content {
+        color: #a8b2d1;
+        font-family: recursive;
+        font-size: 1.2vw;
+    }
+    
+    .hey {
+        color: #64ffda;
+        font-size: 2vw;
+        font-family: ravi-prakash;
+    }
+    
+    .hero-name {
+        font-size: 5vw;
+        color: #e6f1ff;
+        font-family: play-fair;
+    }
+    
+    .hero-conclu {
+        color: #3b4e6e;
+        font-family: roboto-sarif-medium;
+    }
+    
+    #home {
+        margin-top: 25vh;
+        gap: 2vh;
+    }
+    
+    #about {
+        margin-top: 40vh;
+    }
+    
+    @font-face {
+        font-family: ravi-prakash;
+        src: url(../font/Kanit-Thin.ttf);
+    }
+    
+    @font-face {
+        font-family: play-fair;
+        src: url(../font/PlayfairDisplaySC-Regular.ttf);
+    }
+    
+    @font-face {
+        font-family: recursive;
+        src: url(../font/Recursive-SemiBold.ttf);
+    }
+    
+    @font-face {
+        font-family: roboto-sarif-medium;
+        src: url(../font/RobotoSerif_28pt_Condensed-Medium.ttf);
+    }
+    
+    .ab-conclutio {
+        color: #64ffda;
+        font-family: play-fair;
+        font-size: 1.8vw;
+    }
+    
+    .title-skills {
+        border: #64ffda solid;
+        width: 1106px;
+        height: 82px;
+        border-radius: 20px;
+        display: inline-flex;
+    }
+    
+    .soft-skills {
+        width: 553px;
+        height: 82px;
+        /* background-color: #64ffda;   */
+        border-radius: 20px;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        top: -0.1vw;
+        left: -0.7vw;
+    }
+    
+    .soft-skills h1 {
+        color: #64ffda;
+        font-size: 2.5vw;
+        position: relative;
+        top: 18px;
+    }
+    
+    .hard-skills {
+        width: 553px;
+        height: 82px;
+        /* background-color: #FEAD6E; */
+        border-radius: 20px;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        right: -2px;
+        top: -2px;
+    }
+    
+    .hard-skills h1 {
+        color: #64ffda;
+        font-size: 2.5vw;
+        position: relative;
+        top: 18px;
+    }
+    
+    #skills {
+        margin: 25vh;
+        /* display: none; */
+    }
+    
+    .logo-soft-skills {
+        width: 80px;
+        height: 80px;
+        background-color: #64ffda;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7vh;
+    }
+    
+    .logo-soft-skills img {
+        transform: scale(50%);
+    }
+    
+    .projects {
+        padding: 0.3vw;
+        position: relative;
+        top: 10vh;
+        left: 25vw;
+        background-color: #0F172A;
+        border: #64ffda solid;
+        border-width: 0.4vw;
+        border-radius: 10px;
+        color: #64ffda;
+        font-family: play-fair;
+    }
+    
+    .projects:hover {
+        background-color: #64ffda;
+        color: #0F172A;
+    }
+    
+    #contact {
+        margin-top: 50vh;
+    }
+    
+    .contact-me input {
+        margin-top: 20px;
+        background-color: #0F172A;
+        /* border-style: solid;
+border-width: 2px; */
+        padding: 10px;
+        border: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        border-color: #64ffda;
+        cursor: pointer;
+        color: #3f3142;
+        width: 30%;
+        font-family: roboto-sarif-medium;
+    }
+    
+    .contact-me textarea {
+        margin-top: 20px;
+        background-color: #0F172A;
+        padding: 10px;
+        border: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        border-color: #64ffda;
+        cursor: pointer;
+        width: 30%;
+        color: #3f3142;
+        font-family: roboto-sarif-medium;
+    }
+    /* #hero-sub-cont{
+display: none;
+
+} */
+    
+    .contact-me {
+        position: relative;
+        left: 10%;
+    }
+    
+    .contact-me input[type="submit"] {
+        width: 200px;
+        height: 50px;
+        /* background-color: #F36929; */
+        color: #ffffff;
+        border: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        border-color: #64ffda;
+        cursor: pointer;
+        transition: background-color 0.5s ease-in-out;
+        color: #3f3142;
+        font-family: roboto-sarif-medium;
+    }
+    
+    .contact-me input[type="submit"]:hover {
+        background-color: #64ffda;
+        color: #0F172A;
+    }
+    
+    .cont-img {
+        float: right;
+        position: absolute;
+        top: 315vh;
+        left: 70%;
+        transform: scale(200%);
+    }
+    /* -----------------------------Text Animation---------------------- */
+    
+    @import url('https://fonts.googleapis.com/css?family=Anton|Roboto');
+    .word {
+        font-family: 'Anton', sans-serif;
+        perspective: 1000px;
+        color: #ffffff;
+    }
+    
+    .word span {
+        cursor: pointer;
+        display: inline-block;
+        font-size: 100px;
+        user-select: none;
+        line-height: .8;
+    }
+    
+    .word span:nth-child(1).active {
+        animation: balance 1.5s ease-out;
+        transform-origin: bottom left;
+    }
+    
+    @keyframes balance {
+        0%,
+        100% {
+            transform: rotate(0deg);
+        }
+        30%,
+        60% {
+            transform: rotate(-45deg);
+        }
+    }
+    
+    .word span:nth-child(2).acy {
+        animation: shrinkjump 1s ease-in-out;
+        transform-origin: bottom center;
+    }
+    
+    @keyframes shrinkjump {
+        10%,
+        35% {
+            transform: scale(2, .2) translate(0, 0);
+        }
+        45%,
+        50% {
+            transform: scale(1) translate(0, -150px);
+        }
+        80% {
+            transform: scale(1) translate(0, 0);
+        }
+    }
+    
+    .word span:nth-child(3).active {
+        animation: falling 2s ease-out;
+        transform-origin: bottom center;
+    }
+    
+    @keyframes falling {
+        12% {
+            transform: rotateX(240deg);
+        }
+        24% {
+            transform: rotateX(150deg);
+        }
+        36% {
+            transform: rotateX(200deg);
+        }
+        48% {
+            transform: rotateX(175deg);
+        }
+        60%,
+        85% {
+            transform: rotateX(180deg);
+        }
+        100% {
+            transform: rotateX(0deg);
+        }
+    }
+    
+    .word span:nth-child(4).active {
+        animation: rotate 1s ease-out;
+    }
+    
+    @keyframes rotate {
+        20%,
+        80% {
+            transform: rotateY(180deg);
+        }
+        100% {
+            transform: rotateY(360deg);
+        }
+    }
+    
+    .word span:nth-child(5).active {
+        animation: toplong 1.5s linear;
+    }
+    
+    .word span:nth-child(6).active {
+        animation: cus-rotate 1.5s ease-out;
+        transform-origin: bottom left;
+    }
+    
+    @keyframes cus-rotate {
+        0%,
+        100% {
+            transform: rotate(0deg);
+        }
+        30%,
+        60% {
+            transform: rotate(45deg);
+        }
+    }
+    
+    @keyframes toplong {
+        10%,
+        40% {
+            transform: translateY(-48vh) scaleY(1);
+        }
+        90% {
+            transform: translateY(-48vh) scaleY(4);
+        }
+    }
+    /* ------------text animation 2--------------- */
+    
+    .pr-img img:hover {
+        box-shadow: 0px 0px 50px 10px #64ffda;
+        border-radius: 10px;
+        transform: scale(100%) ease-in;
+    }
+    
+    .pr-img img {
+        transition: 1s;
+        transform: scale(80%);
+    }
+    
+    .hard-skills-main {
+        display: none;
+    }
+    
+    .caption-logo-skills {
+        display: inline-flex;
+        gap: 4.5vw;
+        color: aliceblue;
+        margin-top: 10px;
+    }
+    
+    .pr-caption {
+        margin-left: 2vw;
+    }
+    
+    .ms-office {
+        margin-left: 1vw;
+    }
+    
+    .jq-caption {
+        margin-left: 0.5vw;
+    }
+    
+    .ht-caption {
+        margin-left: 1.5vw;
+    }
+    
+    .cs-caption {
+        margin-left: 3.5vw;
+    }
+    
+    .sql-caption {
+        margin-left: 3vw;
+    }
+    
+    @media screen and (max-width:983px) {
+        /* #skills {
+            display: none;
+            margin-top: 0px;
+        } */
+        #skills {
+            margin-left: 3px;
+            margin-bottom: 20px;
+        }
+        .ab-hello {
+            font-size: 40px;
+        }
+        .ab-content {
+            font-size: 15px;
+        }
+        .logo-soft-skills {
+            display: none;
+        }
+        .caption-logo-skills {
+            display: block;
+        }
+        #contact {
+            margin-top: 30vh;
+        }
+        .cont-img {
+            display: none;
+        }
+        /* .mob-skills{
+    display: block;
+  } */
+        .logo-soft-skills {
+            display: none;
+        }
+        .bodycolo {
+            overflow-x: hidden;
+        }
+        .pr-caption {
+            margin: 0vh;
+        }
+        .ms-office {
+            margin: 0vh;
+        }
+        .jq-caption {
+            margin: 0vh;
+        }
+        .ht-caption {
+            margin: 0vh;
+        }
+        .cs-caption {
+            margin: 0vh;
+        }
+        .sql-caption {
+            margin: 0vh;
+        }
+        .contact-me {
+            position: relative;
+            top: 100px;
+        }
+        body {
+            overflow-x: hidden;
+        }
+        #icon i {
+            font-size: 15px;
+        }
+    }
