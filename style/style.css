@@ -501,7 +501,7 @@ display: none;
             position: relative;
             top: 100px;
         }
-        body {
+        .bodycolo {
             overflow-x: hidden;
         }
         #icon i {
